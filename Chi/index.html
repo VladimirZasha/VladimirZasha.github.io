@@ -6,6 +6,33 @@
 <link rel="icon" href="Img/doubt.jpg">
 <link href="Include/aos.css" rel="stylesheet">
 <link href="Include/styles.css" rel="stylesheet">
+	<style>
+		.split {
+			box-sizing: border-box;
+			padding: 10px;
+			border-radius: 2px;
+			clear: both;
+			transition-duration: 1s;
+			opacity: 1;
+			transform: translateZ(0);
+			transition-timing-function: cubic-bezier(.175,.885,.32,1.275);
+		}
+		
+		.split.img {
+			heigh:688;
+			width:350;
+		}
+		
+		.split-left {
+			float:left;
+		}
+		
+		
+		.split-right {
+			float:right;
+
+		}
+	</style>
 </head>
 <body>
 	
@@ -23,32 +50,32 @@
 			</span>
 		</header>
 <div class="container">
-<div style="float:left; clear:both;"  data-aos="fade-up">
-	<img src="Img/Chi1.jpg" height="588" width="300" alt="">
+<div class="split split-left"  data-aos="fade-up">
+	<img src="Img/Chi1.jpg"  alt="">
 </div>
-<div  style="float:right; clear:both;" data-aos="fade-down">
-	<img src="Img/Chi2.jpg" height="588" width="300" alt="">
+<div  class="split split-right" data-aos="fade-down">
+	<img src="Img/Chi2.jpg" alt="">
 </div> 
-<div style="float:left; clear:both;"  data-aos="fade-right">
-	<img src="Img/Chi3.jpg" height="588" width="300" alt="">
+<div class="split split-left" data-aos="fade-right">
+	<img src="Img/Chi3.jpg" alt="">
 </div>
-<div  style="float:right; clear:both;" data-aos="fade-up-right">
-	<img src="Img/Chi4.jpg" height="588" width="300" alt="">
+<div  class="split split-right" data-aos="fade-up-right">
+	<img src="Img/Chi4.jpg" alt="">
 </div>
-<div style="float:left; clear:both;"  data-aos="fade-down-right">
-	<img src="Img/Chi5.jpg" height="588" width="300" alt="">
+<div class="split split-left" data-aos="fade-down-right">
+	<img src="Img/Chi5.jpg" alt="">
 </div>
-<div  style="float:right; clear:both;" data-aos="flip-left">
-	<img src="Img/Chi6.jpg" height="588" width="300" alt="">
+<div  class="split split-right" data-aos="flip-left">
+	<img src="Img/Chi6.jpg" alt="">
 </div>
-<div style="float:left; clear:both;"  data-aos="zoom-in">
-	<img src="Img/Chi7.jpg" height="588" width="300" alt="">
+<div class="split split-left" data-aos="zoom-in">
+	<img src="Img/Chi7.jpg" alt="">
 </div>
-<div style="float:right; clear:both;"  data-aos="zoom-in-up">
-	<img src="Img/Chi8.jpg" height="588" width="300" alt="">
+<div class="split split-right"  data-aos="zoom-in-up">
+	<img src="Img/Chi8.jpg" alt="">
 </div>
-<div style="float:left; clear:both;"  data-aos="zoom-in-down">
-	<img src="Img/Chi9.jpg" height="588" width="300" alt="">
+<div class="split split-left" data-aos="zoom-in-down">
+	<img src="Img/Chi9.jpg" alt="">
 </div>
 	</div>
 
